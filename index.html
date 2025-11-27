@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Control de Inventario</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- HEADER / HERO -->
+  <header class="hero" id="inicio">
+    <div class="overlay"></div>
+
+    <nav class="nav">
+      <div class="nav__logo">
+        &lt;Control de Inventario /&gt;
+      </div>
+
+      <button class="nav__toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__links">
+        <li><a href="#inicio" class="nav__link nav__link--active">Inicio</a></li>
+        <li><a href="#paquetes" class="nav__link">Paquetes</a></li>
+        <li><a href="#producto" class="nav__link">El Producto</a></li>
+        <li><a href="#comprar" class="nav__link">Comprar</a></li>
+        <!-- AHORA SON PÁGINAS SEPARADAS -->
+        <li><a href="registro.html" class="nav__link nav__link--small">Registro</a></li>
+        <li><a href="login.html" class="nav__link nav__link--small">Iniciar sesión</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero__content">
+      <p class="hero__tag">PRUEBA GRATIS</p>
+      <h1 class="hero__title">Control de Inventario</h1>
+      <p class="hero__subtitle">Fácil de usar · Diseñado para tu negocio</p>
+      <a href="#comprar" class="btn btn--primary">Comprar</a>
+    </div>
+
+    <div class="hero__bottom-tag">
+      &lt;Control de Inventario /&gt;
+    </div>
+  </header>
+
+  <main>
+    <!-- CONTROL DE INVENTARIOS -->
+    <section class="section section--light" id="control">
+      <div class="section__inner section__inner--two-columns">
+        <div class="section__text">
+          <h2>Control de Inventarios</h2>
+          <p class="section__subtitle">Conoce nuestra plataforma</p>
+          <p>
+            Ofrecemos el mejor software para control de inventarios, ideal para
+            empresas que quieren dejar atrás las hojas de cálculo y tener visibilidad
+            en tiempo real.
+          </p>
+          <p>
+            Gestiona tus entradas y salidas, controla mermas, genera reportes y
+            toma decisiones con datos claros y confiables.
+          </p>
+        </div>
+
+        <div class="section__media">
+          <!-- AQUÍ TU IMAGEN DE CAPACITACIÓN -->
+          <img src="sobre_devwebcamp.jpg" alt="Personas en capacitación" />
+        </div>
+      </div>
+    </section>
+
+    <!-- PAQUETES -->
+    <section class="section section--grey" id="paquetes">
+      <div class="section__inner">
+        <h2>Paquetes Control de Inventario</h2>
+        <p class="section__subtitle">
+          Elige el plan que mejor se adapte a tu negocio
+        </p>
+
+        <div class="cards cards--pricing">
+          <article class="card card--pricing">
+            <h3>Paquete Básico</h3>
+            <ul>
+              <li>Acceso al módulo de inventario básico</li>
+              <li>Gestión de hasta 50 productos</li>
+              <li>Soporte por correo electrónico</li>
+              <li>1 usuario administrador</li>
+            </ul>
+            <p class="card__price">$0</p>
+          </article>
+
+          <article class="card card--pricing card--pricing--highlight">
+            <h3>Paquete PYME</h3>
+            <ul>
+              <li>Módulos de inventario, proveedores y clientes</li>
+              <li>Gestión ilimitada de productos</li>
+              <li>Reportes avanzados y exportación de datos</li>
+              <li>Hasta 5 usuarios</li>
+            </ul>
+            <p class="card__price">$49</p>
+          </article>
+
+          <article class="card card--pricing">
+            <h3>Paquete Empresarial</h3>
+            <ul>
+              <li>Todo lo del Paquete PYME</li>
+              <li>Módulo de multi-almacén</li>
+              <li>Integración con punto de venta (POS)</li>
+              <li>Usuarios ilimitados</li>
+            </ul>
+            <p class="card__price">$199</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTO -->
+    <section class="section section--light" id="producto">
+      <div class="section__inner">
+        <h2>Control Total de Inventario, Simplificado</h2>
+        <p class="section__subtitle">
+          Diseñada para transformar la gestión de tu inventario
+        </p>
+
+        <div class="cards cards--features">
+          <article class="card card--feature">
+            <h3>📈 Aumenta la eficiencia</h3>
+            <p>
+              Automatiza el seguimiento de entradas y salidas. Reduce errores
+              manuales y ahorra tiempo en cada conteo.
+            </p>
+          </article>
+
+          <article class="card card--feature">
+            <h3>⚠️ Evita el desabasto</h3>
+            <p>
+              Recibe alertas de stock bajo, mantén tus productos clave siempre
+              disponibles y evita pérdidas por falta de inventario.
+            </p>
+          </article>
+
+          <article class="card card--feature">
+            <h3>💰 Control de costos</h3>
+            <p>
+              Rastrea el costo promedio, calcula márgenes y genera reportes para
+              tomar decisiones rentables.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FUNCIONALIDADES -->
+    <section class="section section--blue">
+      <div class="section__inner">
+        <h2>Funcionalidades Poderosas</h2>
+
+        <div class="grid-features">
+          <article class="grid-feature">
+            <h3>Control Multi-Almacén</h3>
+            <p>Administra inventarios en múltiples ubicaciones desde un solo panel.</p>
+          </article>
+
+          <article class="grid-feature">
+            <h3>Escaneo Rápido</h3>
+            <p>Usa códigos de barras o QR para registrar movimientos en segundos.</p>
+          </article>
+
+          <article class="grid-feature">
+            <h3>Reportes Personalizados</h3>
+            <p>Analiza rotación, ventas y productos más vendidos con reportes claros.</p>
+          </article>
+
+          <article class="grid-feature">
+            <h3>Integración con e-Commerce</h3>
+            <p>Sincroniza tu inventario con tu tienda en línea.</p>
+          </article>
+
+          <article class="grid-feature">
+            <h3>Control de Lotes y Fechas</h3>
+            <p>Gestiona caducidades y lotes para evitar mermas.</p>
+          </article>
+
+          <article class="grid-feature">
+            <h3>Roles y Permisos</h3>
+            <p>Define lo que puede ver y editar cada usuario.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA COMPRAR -->
+    <section class="section section--blue" id="comprar">
+      <div class="section__inner section__inner--narrow section__cta">
+        <h2>¿Listo para empezar?</h2>
+        <p>Elige tu paquete y crea tu cuenta en minutos.</p>
+        <a href="registro.html" class="btn btn--light">Empezar gratis</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© Todos los derechos reservados 2025 · Control de Inventario</p>
+  </footer>
+</body>
+</html>

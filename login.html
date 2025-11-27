@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iniciar Sesión · Control de Inventario</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="auth-page">
+
+  <header class="auth-header">
+    <div class="auth-header__inner">
+      <div class="auth-logo">&lt;Control de Inventario /&gt;</div>
+      <a href="index.html" class="auth-header__link">Volver al inicio</a>
+    </div>
+  </header>
+
+  <main class="auth-main">
+    <section class="auth-card">
+      <h1 class="auth-title">Iniciar Sesión</h1>
+      <p class="auth-subtitle">Inicia sesión</p>
+
+      <form class="auth-form">
+        <div class="auth-form__group">
+          <label for="login-email">Email</label>
+          <input
+            type="email"
+            id="login-email"
+            placeholder="12345@gmail.com"
+            required
+          />
+        </div>
+
+        <div class="auth-form__group">
+          <label for="login-password">Password</label>
+          <input
+            type="password"
+            id="login-password"
+            placeholder="********"
+            required
+          />
+        </div>
+
+        <button type="submit" class="btn-auth">
+          Iniciar Sesión
+        </button>
+
+        <div class="auth-extra">
+          <a href="registro.html" class="auth-extra__left">
+            ¿Aún no tienes una cuenta? Obtener una
+          </a>
+          <a href="#" class="auth-extra__right">
+            ¿Olvidaste tu Password?
+          </a>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="auth-footer">
+    © Todos los derechos reservados 2025 · Control de Inventario
+  </footer>
+</body>
+</html>

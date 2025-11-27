@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registro · Control de Inventario</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body class="auth-page">
+
+  <header class="auth-header">
+    <div class="auth-header__inner">
+      <div class="auth-logo">&lt;Control de Inventario /&gt;</div>
+      <a href="index.html" class="auth-header__link">Volver al inicio</a>
+    </div>
+  </header>
+
+  <main class="auth-main">
+    <section class="auth-card">
+      <h1 class="auth-title">Regístrate</h1>
+      <p class="auth-subtitle">Ingresa tus datos para crear una cuenta de prueba</p>
+
+      <form class="auth-form">
+        <div class="auth-form__group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" placeholder="Tu nombre" required />
+        </div>
+
+        <div class="auth-form__group">
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" placeholder="Tu apellido" required />
+        </div>
+
+        <div class="auth-form__group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="12345@gmail.com" required />
+        </div>
+
+        <div class="auth-form__group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="********" required />
+        </div>
+
+        <div class="auth-form__group">
+          <label for="password2">Repetir Password</label>
+          <input type="password" id="password2" placeholder="Repite tu contraseña" required />
+        </div>
+
+        <button type="submit" class="btn-auth">
+          Crear Cuenta
+        </button>
+
+        <div class="auth-extra">
+          <a href="login.html" class="auth-extra__left">
+            ¿Ya tienes cuenta? Iniciar sesión
+          </a>
+          <span class="auth-extra__right"></span>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="auth-footer">
+    © Todos los derechos reservados 2025 · Control de Inventario
+  </footer>
+</body>
+</html>
